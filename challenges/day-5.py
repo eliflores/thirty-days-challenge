@@ -1,5 +1,3 @@
-#!/bin/python3
-
 test_cases = int(input().strip())
 
 user_input_lines = []

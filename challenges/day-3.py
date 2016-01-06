@@ -1,5 +1,3 @@
-#!/bin/python3
-
 number = int(input().strip())
 remainder = number % 2
 
