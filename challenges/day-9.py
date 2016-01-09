@@ -1,3 +1,4 @@
+# Euclid's Algorithm for Computing the GCD of two integers
 def find_gcd(a, b):
     if a == b or b == 0:
         return a
