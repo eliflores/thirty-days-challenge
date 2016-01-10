@@ -9,8 +9,8 @@ for test_case in range(0, test_cases):
     while n != 0:
         remainder = n % BASE
         n //= BASE
-        binary_number.insert(0, remainder)
-    binary_numbers.append(''.join(str(number) for number in binary_number))
+        binary_number.insert(0, str(remainder))
+    binary_numbers.append(''.join(binary_number))
 
 for binary_number in binary_numbers:
     print(binary_number)
