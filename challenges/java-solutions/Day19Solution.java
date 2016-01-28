@@ -1,5 +1,3 @@
-package com.programming.exercises.hackerrank;
-
 import java.util.Scanner;
 
 interface AdvancedArithmetic {
