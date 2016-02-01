@@ -11,7 +11,7 @@ def is_funny(word):
 
 
 number_of_test_cases = int(input())
-for test_case in range(0, number_of_test_cases):
+for test_case in range(number_of_test_cases):
     if is_funny(input()):
         print('Funny')
     else:

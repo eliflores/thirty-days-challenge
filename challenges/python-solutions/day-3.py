@@ -9,4 +9,4 @@ if remainder == 0:
     elif number > 20:
         print("Not Weird")
 else:
-    print ("Weird")
+    print("Weird")

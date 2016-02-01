@@ -4,7 +4,7 @@ import sys
 def min_difference(arr):
     diff_dict = {}
     min_diff = sys.maxsize
-    for i in range(0, len(arr) - 1):
+    for i in range(len(arr) - 1):
         difference = abs(arr[i] - arr[i + 1])
         differences_list = diff_dict.get(difference)
         pair = (arr[i], arr[i + 1])

@@ -22,7 +22,7 @@ def is_prime_number(number):
 
 test_cases = int(input())
 numbers = []
-for test_case in range(0, test_cases):
+for test_case in range(test_cases):
     numbers.append(int(input()))
 
 for n in numbers:
